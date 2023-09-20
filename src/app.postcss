@@ -1,0 +1,27 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&family=Public+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+}
+
+/* utility class for centering icons! do not use this for anything else */
+.icon-centered {
+	@apply flex flex-col items-center justify-center;
+}
+
+.centered {
+	@apply flex items-center justify-center;
+}
+
+/* Small icon size mostly used for buttons and inline use */
+.icon-sm {
+	@apply w-6 h-6;
+}
+
+
